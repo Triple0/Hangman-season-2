@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Let's Try Javascript! (Again!)</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Stylesheet: -->
+        <link rel="stylesheet" href="./css/main.css">
+
+        <!--  Scripts -->
+        <script type="text/javascript" src="./js/scripts.js" defer></script>
+    </head>
+
+    <body>
+        <h1>Hangman</h1>
+        <section></section>
+        <p>Enter a guess to begin.</p>
+        <form action="#" method="GET">
+            <label for="guess">
+                Enter a guess:
+                <input type="text" name="guess" maxlength="1">
+            </label>
+            <input type="submit" value="Guess!">
+        </form>
+        <dl>
+            <dt>Word</dt>
+            <dd class="word"></dd>
+            <dt>Chances</dt>
+            <dd class="chances"></dd>
+            <dt>Previous Guesses</dt>
+            <dd class="previous-guesses"></dd>
+        </dl>
+    </body>
+</html>
