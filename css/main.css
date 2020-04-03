@@ -5,7 +5,7 @@
 body {
     background-image: url('../img/hangman1.png');
     background-repeat: no-repeat;
-    color: rgb(255, 191, 0);
+    color: #003399;
     font-size: 30px;
     text-align: center;
     background-position: center;
